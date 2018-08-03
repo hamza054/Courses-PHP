@@ -1,0 +1,19 @@
+
+
+
+ get inside the system :  post -> checkUser class in controller by parmision from db.
+ add course :  post -> routerToDB class in controler then go to courseController and then insert to db.
+ add student :  post -> routerToDB class in controler then go to studentController and then insert to db.
+ add admin :  post -> routerToDB class in controler then go to adminController and then insert to db.
+ also edit all this by the same way: router in controller then go to spcifc class in controller then active spcific function from bl and present in view (mvc).
+
+
+
+
+
+ CODE TO ACCSES : owner:  user name :owner@gmail.com ; pass 111.
+                  manger :  user name :hamza@gmail.com  ; pass 222.
+                  sales:  user name :sales@gmail.com  ; pass 333.
+                 
+ 
+  

@@ -1,0 +1,250 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #6191A8;
+}
+
+
+#userImg{
+  width: 30px;
+
+}
+
+#schooleImage{
+  width: 134px;
+  height: 40px;
+  padding: 2px 5px 0px 10px;
+}
+
+.profile-img-card {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.logo-img {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+  background: #416275;
+  width: auto;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#cssmenu.align-right ul li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #E4EEF0;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+
+#cssmenu ul li.last{
+   float: right;
+   padding-left: 10px;
+}
+
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+   
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #333333;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+  display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
+}
+
+
+#cssmenu ul li.last.bottem_and_right{
+  float: right;
+}
+
+
+
+table, tr, td {
+    border: 1px solid #000;
+}
+
+
+
+
+
+  .box-set,.box {
+    background: #E4EEF0;
+    height: 100%;
+    line-height: 24px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius:3px;
+  }
+  
+  .box:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+  
+     
+   
+
+#image_continer{
+  height: 80px;
+  width: 80px;
+}
+  
+  
+  #content > div {
+      height:100px;
+      box-sizing:border-box;
+      -moz-box-sizing:border-box;
+  }
+  #course_left {
+      float:left;
+      width: 15%;
+  }
+  #inMidaleOfPosiotion  {
+   padding: 30%;
+}
+  #student_right {
+      float:left;
+      width: 15%;
+  
+  }
+  #center {
+      float:left;
+      width: 70%;
+  
+  }
+  
+  #center.mid {
+    padding: 5% 50%;
+
+
+}
+
+
+.right {
+  float: right;
+
+
+}
+
